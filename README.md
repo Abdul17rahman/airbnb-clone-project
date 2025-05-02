@@ -32,7 +32,7 @@ According to the project requirements, we shall have 3 different roles and they 
 
 - **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
 
-##📉 Database Design
+## 📉 Database Design
 
 PostgreSQL provides a powerfull database schema that will enable fast data retrieval, query optmization and many other database features. Below is a brief overview of the database design.
 
@@ -65,8 +65,8 @@ PostgreSQL provides a powerfull database schema that will enable fast data retri
 
 The application will have different features including but not limited.
 
-    ### 1. User Management
+### 1. User Management
 
-    The application will have a secure system for user registration, authentication, and profile management.
+The application will have a secure system for user registration, authentication, and profile management.
 
-    Users will be able to signup, login and logout efficiently without any hustle.
+Users will be able to signup, login and logout efficiently without any hustle.
