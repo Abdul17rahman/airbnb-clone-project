@@ -83,7 +83,7 @@ This will allow users to leave reviews and ratings for properties.
 
 It will as well enables users checkout reviews of different properties before they book them for better decision making.
 
-## API Security
+## 📈 API Security
 
 Application security is very important for any project as it enables authentication and authorization. With this implementation users will be able to sign and access their own information, the application sensitive data will as well not access or open for anyone to access as this could lead to attacks.
 
@@ -94,3 +94,13 @@ Weak security mechanisms make an application vulnerable to attacks of all sorts 
 - **Authorisation**: This is a process of determining weather an authenticated user has the right access to specific application resources or features. Even if a user logs in successfully, they shouldn't be able to do everything.
 
 - **Rate Limiting**: This technique allows APIs manage requests by limiting how many requests a user can make to the API in a specific period of time. It helps protect an API from **Abuse** spamming login attemps, **DDOS attacks** flooding the server with fake requests from bots, **Server overload** too many user requests at once and many others.
+
+## ⳽ CI/CD Pipeline
+
+Continous intergration, Continous Deployment/Delivery is a practice that automates building, testing, and deploying code so that software changes can be delivered quickly, reliably, and continuously. These 2 are a crucial part of application production as they enable updates without breaking the operations of the application. Changes are committed to live production application and it's enabled with tools such as:
+
+- **Docker**: This enables running a virtual application enviroment that includes all the tools an application needs to run smoothly without issues. Applications are packaged into lightweight, portable containers that run consistently accross different enviroments.
+
+- **GitHub Actions**: This is a pipeline platform that leverages github to automate testing, building and deployment of applications through events like pushes or pull requests in a repository.
+
+> This document was done and updated by Abdul Rahman.
