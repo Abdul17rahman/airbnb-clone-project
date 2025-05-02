@@ -70,3 +70,17 @@ The application will have different features including but not limited.
 The application will have a secure system for user registration, authentication, and profile management.
 
 Users will be able to signup, login and logout efficiently without any hustle.
+
+### 2. Booking System
+
+The application will have a booking mechanism for users to reserve properties and manage booking details.
+
+The Booking system will be liked to properties, users and payments.
+
+### 3. Review System
+
+This will allow users to leave reviews and ratings for properties.
+
+It will as well enables users checkout reviews of different properties before they book them for better decision making.
+
+## API Security
