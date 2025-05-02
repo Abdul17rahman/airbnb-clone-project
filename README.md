@@ -31,3 +31,29 @@ According to the project requirements, we shall have 3 different roles and they 
 - **Docker**: Containerization tool for consistent development and deployment environments.
 
 - **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
+
+## Database Design
+
+PostgreSQL provides a powerfull database schema that will enable fast data retrieval, query optmization and many other database features. Below is a brief overview of the database design.
+
+### Entries
+
+- **Users**: Each user can have multiple bookings and will have different fields including:
+- username
+- password
+- email
+
+- **Bookings**: Each booking will belong to one specific user and one property. It will have fields including:
+- booking_id
+- user_id
+- property_id
+- booking_date
+
+- **Properties**: Each property will belong to one owner and will have a single booking at a time. Fields include among others:
+- property_id
+- owner_id
+- status
+
+- **Payments**: Each payment will belong to a spefic booking and will have fields including.
+- payment_id
+- booking_id
