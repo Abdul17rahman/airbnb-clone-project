@@ -2,19 +2,32 @@
 
 This project aims to mimic the [AirBnb](https://www.airbnb.com/) application that allows users book apartments and places to stay with the covenience of their phones. The aim is to implement features like bookings, reservation, payments, user profile, authentication. This backend will support various functionalities required to mimic the core features of Airbnb, ensuring a smooth experience for users and hosts.
 
+## 🎯 Project Initialization
+
+- Repository: **airbnb-clone-project**
+- Steps:
+  1. Create a new public GitHub repo named `airbnb-clone-project`.
+  2. Initialize with a `README.md` (this file).
+  3. Commit and push changes to GitHub.
+
 ## 👨🏼‍💻 Team Roles
 
 According to the project requirements, we shall have 3 different roles and they include:
 
-- **Backend Developer**: Responsible for implementing API endpoints, database schemas, and business logic.
-
-- **Database Addministrator**: Manages database design, indexing, and optimizations.
-
-- **DevOps Engineer**: Handles deployment, monitoring, and scaling of the backend services.
-
-- **QA Enginner**: Ensures the backend functionalities are thoroughly tested and meet quality standards.
+| Role                    | Responsibilities                                         |
+| ----------------------- | -------------------------------------------------------- |
+| **Project Manager**     | Oversees development progress, ensures deadlines are met |
+| **Frontend Developers** | Build UI in React, integrate APIs, ensure responsiveness |
+| **Backend Developers**  | Develop Django REST/GraphQL APIs, manage business logic  |
+| **Designers (UI/UX)**   | Create wireframes, Figma mockups, and style guides       |
+| **QA/Testers**          | Write and run test cases, ensure bug-free releases       |
+| **DevOps Engineers**    | Handle CI/CD, deployment, scaling, monitoring            |
+| **Product Owner**       | Defines requirements, prioritizes backlog                |
+| **Scrum Master**        | Facilitates agile processes, resolves blockers           |
 
 ## ⚙️ Technology Stack
+
+### Backend
 
 - **Django**: A high-level Python web framework used for building the RESTful API.
 
@@ -32,11 +45,71 @@ According to the project requirements, we shall have 3 different roles and they 
 
 - **CI/CD Pipelines**: Automated pipelines for testing and deploying code changes.
 
+### Frontend
+
+- **React.js** – Core frontend library
+- **Next.js** – For SSR (optional, if needed for SEO & performance)
+- **Tailwind CSS** – Styling & responsive design
+- **Figma** – UI/UX design tool
+- **Axios / React Query** – API calls & state management
+- **Vercel / Netlify** – Hosting for frontend
+
+## 🎨 UI/UX Design Planning
+
+The design will follow **Airbnb’s minimal, clean, and user-friendly approach** with emphasis on **simplicity, discoverability, and trust**.
+
+### Design Goals
+
+- Intuitive navigation for users
+- Clear property listings with images
+- Smooth booking flow
+- Mobile-first responsive design
+
+### Key Pages
+
+| Page                      | Description                                                               |
+| ------------------------- | ------------------------------------------------------------------------- |
+| **Property Listing View** | Displays all available properties with filters (price, location, ratings) |
+| **Listing Detailed View** | Shows property images, description, reviews, and booking option           |
+| **Simple Checkout View**  | Guides users through payment and confirmation of booking                  |
+
+**Why user-friendly design matters?**  
+A booking system needs to be **fast, reliable, and easy to use** to avoid user drop-off. A clean interface builds **trust** and ensures users can complete bookings without confusion.
+
+## 🧩 UI Component Patterns
+
+Reusable components will speed up frontend development. Planned components include:
+
+- **Navbar**: Navigation with logo, search, login/profile
+- **Property Card**: Displays property image, name, price, rating
+- **Footer**: Contains links to help, terms, and social media
+- **Booking Form**: Date picker, guest selector, booking button
+- **Review Component**: Star ratings, text reviews
+- \*\*F
+
+## 🎨 More UI/UX Design Planning (Figma Exploration)
+
+- **Colors**:
+
+  - Primary: `#FF385C` (Airbnb pink/red)
+  - Secondary: `#008489` (teal)
+  - Background: `#F7F7F7`
+  - Text: `#222222`
+
+- **Typography**:
+  - Font Family: `Circular Std` (or fallback: Arial, sans-serif)
+  - Headings: Bold, 24px+
+  - Subheadings: Medium, 18–20px
+  - Body: Regular, 14–16px
+
+**Why define design properties?**  
+By setting **color styles and typography upfront**, we maintain **consistency**, speed up collaboration, and make the UI **scalable** as new features are added.
+
 ## 📉 Database Design
 
 PostgreSQL provides a powerfull database schema that will enable fast data retrieval, query optmization and many other database features. Below is a brief overview of the database design.
 
-### Entries
+### Entities
 
 - **Users**: Each user can have multiple bookings and will have different fields including:
 
