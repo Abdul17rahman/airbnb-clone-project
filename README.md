@@ -10,7 +10,7 @@ This project aims to mimic the [AirBnb](https://www.airbnb.com/) application tha
   2. Initialize with a `README.md` (this file).
   3. Commit and push changes to GitHub.
 
-## 👨🏼‍💻 Team Roles
+## 👨🏼‍💻 Project Roles and Responsibilities
 
 According to the project requirements, we shall have 3 different roles and they include:
 
